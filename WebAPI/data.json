@@ -1,0 +1,105 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Andreea"
+    },
+    {
+      "Id": 2,
+      "UserName": "Maria"
+    },
+    {
+      "Id": 3,
+      "UserName": "Ioana"
+    },
+    {
+      "Id": 4,
+      "UserName": "Georgiana"
+    },
+    {
+      "Id": 5,
+      "UserName": "Saran"
+    },
+    {
+      "Id": 6,
+      "UserName": "Aleksandra"
+    },
+    {
+      "Id": 7,
+      "UserName": "Tina"
+    },
+    {
+      "Id": 8,
+      "UserName": "Cristi"
+    },
+    {
+      "Id": 9,
+      "UserName": "Iulian"
+    }
+  ],
+  "Todos": [
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Ioana"
+      },
+      "Title": "Salesman",
+      "IsCompleted": true
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 8,
+        "UserName": "Cristi"
+      },
+      "Title": "Cleaning the floor",
+      "IsCompleted": true
+    },
+    {
+      "Id": 7,
+      "Owner": {
+        "Id": 9,
+        "UserName": "Iulian"
+      },
+      "Title": "Sweetie",
+      "IsCompleted": true
+    },
+    {
+      "Id": 8,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Maria"
+      },
+      "Title": "Worker",
+      "IsCompleted": false
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Maria"
+      },
+      "Title": "Cleaning",
+      "IsCompleted": true
+    },
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Andreea"
+      },
+      "Title": "Cooking",
+      "IsCompleted": true
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Andreea"
+      },
+      "Title": "Worker",
+      "IsCompleted": true
+    }
+  ]
+}
